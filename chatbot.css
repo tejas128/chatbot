@@ -1,0 +1,467 @@
+body{
+    object-fit: contain;
+    display: flex;
+    justify-content: center;
+}
+.card{
+    position:relative;
+    width:416px;
+    height:629px;
+    background:#FFFFFF;
+    box-shadow:0px 0px 50px rgba(0,0,0,0.08);
+    
+   border-radius:18px;
+   overflow: hidden;
+}
+.card-header{
+  
+
+    
+   
+    
+    position: absolute;
+    width:416px;
+    height:278px;
+    left:0px;
+    top:-1px;
+   
+
+
+
+    background:linear-gradient(123.75deg,#F5821F 1.87%,#ff5c00 120.46%);
+}
+.animate{
+    -webkit-animation-duration: 1s  ;
+    -webkit-animation-name:fadeIn ;
+   
+    animation-fill-mode: both;
+    -webkit-animation-fill-mode:both ;
+}
+.card-content{
+    -webkit-animation-delay: 1s ;
+    
+    
+  
+}
+.card-body{
+-webkit-animation-delay: 3s ;
+position: absolute;
+width: 390px;
+height: 400px;
+left: 13px;
+top: 199px;
+
+background: #FFFFFF;
+border: 1px solid #E4E4E4;
+box-sizing: border-box;
+box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.05);
+border-radius: 8px;
+}
+.bot-img-holder{
+    -webkit-animation-delay: 1s ;
+position: absolute;
+width: 67px;
+height: 67px;
+left: 38px;
+top: 165px;
+z-index: 1;
+border-radius: 50%;
+
+background: linear-gradient(180deg, #FF7600 0%, #FF5C00 100%);
+box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+}
+#chatbot{
+    -webkit-animation-delay:3s;
+    position: absolute;
+    left:15px;
+    right: 16px;
+    top: 18px;
+    bottom: 19px;
+    
+    
+  
+}
+.animate2{
+    -webkit-animation-duration: 0.3s  ;
+    -webkit-animation: crescendo 0.2s  ease-in;
+}
+.card-text{
+/* Frequently Asked Questions */
+margin: 0px;
+position: absolute;
+width: 188px;
+height: 18px;
+left:26px;
+top: 50px;
+
+font-family: DM Sans;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 18px;
+
+color: #2D2D2D;
+
+
+
+}
+#question-mark-shadow{
+
+    position: absolute;
+    left: 7.1px;
+    right:6.11px;
+    top: 4px;
+    bottom:8.02px;
+    
+    
+    opacity: 0.3;
+    
+    
+}
+
+.question-mark-holder{
+    position: absolute;
+width: 21px;
+height: 21px;
+left: 221px;
+top: 47px;
+border-radius: 50%;
+background: rgba(247, 183, 49, 0.12);
+}
+#question-mark{
+position: absolute;
+left: 6px;
+right:7.03px;
+top: 4px;
+bottom: 8.02px;
+
+
+}
+#qt-dot{
+    position: absolute;
+left: 8.0px;
+right: 9.49px;
+top: 13.59px;
+bottom: 4.47px
+
+
+}
+#qt-dot-shadow{
+    position: absolute;
+    left: 9.0px;
+    right: 8.57px;
+    top: 13.59px;
+    bottom: 4.47px
+    
+}
+.question-holder{
+    -webkit-animation-delay: 4s ;
+position: absolute;
+width: 339px;
+height: 50px;
+left: 39px;
+top: 278px;
+
+background: #FFFFFF;
+border: 1px solid #E1E1E1;
+box-sizing: border-box;
+box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.05);
+border-radius: 8px;
+}
+.question-holder2{
+    -webkit-animation-delay: 5s ;
+position: absolute;
+width: 340px;
+height: 50px;
+left: 38px;
+top: 337px;
+
+
+
+background: #FFFFFF;
+border: 1px solid #E1E1E1;
+box-sizing: border-box;
+box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.05);
+border-radius: 8px;
+}
+.question-holder3{
+    -webkit-animation-delay: 6s ;
+    position: absolute;
+    width: 339px;
+    height: 50px;
+    left: 39px;
+    top: 396px;
+    
+    
+    
+    
+
+background: #FFFFFF;
+border: 1px solid #E1E1E1;
+box-sizing: border-box;
+box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.05);
+border-radius: 8px;
+}
+.question-holder4{
+    -webkit-animation-delay: 7s ;
+    position: absolute;
+    width: 339px;
+    height: 50px;
+    left: 38px;
+    top: 455px;
+
+background: #FFFFFF;
+border: 1px solid #E1E1E1;
+box-sizing: border-box;
+box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.05);
+border-radius: 8px;
+}
+
+.question{
+position: absolute;
+width: 251px;
+height: 21px;
+left: 26px;
+top: 14px;
+
+font-family: DM Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 21px;
+}
+.question-tag-shadow{
+    
+position: absolute;
+width: 14px;
+height: 14px;
+left: 5px;
+top: 18px;
+
+background: rgba(255, 118, 0, 0.15);
+border-radius: 50%;
+}
+.question-tag{
+    position: absolute;
+width: 8px;
+height: 8px;
+left: 8px;
+top: 21px;
+border-radius: 50%;
+
+background: rgba(255, 118, 0, 0.8);
+}
+
+.button{
+    -webkit-animation-delay: 8s ;
+    position: absolute;
+    width: 268px;
+    height: 44px;
+    left: 74px;
+    top: 534px;
+    
+    background: #FFFFFF;
+    border: 1px solid #D1D1D1;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 100px;
+}
+#msg-icon{
+    position: absolute;
+left: 40px;
+right: 275px;
+top:15.44px;
+bottom: 15.44px;
+
+
+}
+#dash1{
+    position: absolute;
+left: 41.64px;
+right:219.74px;
+top: 17.9px;
+bottom: 25.28px;
+
+
+}
+#dash2{
+    position: absolute;
+left: 41.64px;
+right: 218.1px;
+top: 19.54px;
+bottom: 23.64px;
+
+
+}
+#dash3{
+    position: absolute;
+left: 41.64px;
+right:221.38px;
+top: 21.18px;
+bottom: 22px;
+}
+.button-text{
+position: absolute;
+width: 168px;
+height: 18px;
+left: 59px;
+top: 13px;
+
+font-family: DM Sans;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 18px;
+
+color: #2D2D2D;
+
+
+}
+.card-title{
+
+    margin:0;
+    position: absolute;
+width: 53px;
+height: 39px;
+left: 56px;
+top: 19px;
+
+font-family: DM Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 39px;
+
+
+
+color: #FFFFFF;
+
+
+}
+.card-subtitle{
+    margin:0;
+position: absolute;
+width: 54px;
+height: 29px;
+left: 56px;
+top: 65px;
+
+font-family: DM Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 22px;
+line-height: 29px;
+
+
+
+color: #FFFFFF;
+
+
+}
+.header-text{
+    margin:0;
+    position: absolute;
+width: 228px;
+height: 46px;
+left: 56px;
+top: 104px;
+
+font-family: DM Sans;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 23px;
+
+
+color: #FFFFFF;
+}
+
+.hand
+{
+    
+position: absolute;
+left: 129.61px;
+right: 264.64px;
+top: 68.08px;
+bottom: 186.18px;
+
+
+
+box-sizing: border-box;
+}
+.hand-part{
+   
+position: absolute;
+left: 130.64px;
+right: 269.72px;
+top: 68.63px;
+bottom: 189.47px;
+
+
+
+}
+#short-wave{
+    position: absolute;
+    left: 128px;
+    right: 264.39px;
+    top: 68.39px;
+    bottom: 186px;
+    
+      
+}
+#wave2{
+    position: absolute;
+left: 129.36px;
+right: 278.97px;
+top: 82.97px;
+bottom: 187.36px;
+
+
+}
+#wave3{
+ 
+position: absolute;
+left: 147.44px;
+right: 263.03px;
+top: 67.03px;;
+bottom: 205.44px;;
+
+  
+}
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+ 
+    
+    @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+   
+    
+   
+@keyframes crescendo {
+        0%   {transform: scale(1.0);}
+        100% {transform: scale(0.0);}
+      }
+      @-moz-keyframes crescendo {
+        0%   {transform: scale(1.0);}
+        100% {transform: scale(0.0);}
+      }
+      @-webkit-keyframes crescendo {
+        0%   {transform: scale(1.0);}
+        100% {transform: scale(0.0);}
+      }
+
+
+ 
+
+
+     
+ 
+ 
+    
+ 
